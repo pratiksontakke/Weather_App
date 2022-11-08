@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+}
+p {
+  text-align: center;
+}
+/* map */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+#inputdiv {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid transparent;
+}
+#inputdiv > input {
+  padding: 10px;
+  width: 85%;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#inputdiv > img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  cursor: pointer;
+}
+#container {
+  margin: 50px auto 50px auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+#container > div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+#weatherData {
+  border: 1px solid transparent;
+  height: auto;
+  padding: 20px;
+}
+#weatherData > div:nth-child(1) > h2 {
+  font-size: 30px;
+}
+#weatherData > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#weatherData > div:nth-child(2) > p {
+  font-size: 40px;
+}
+#weatherData > div:nth-child(3) {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+}
+#weatherData > div:nth-child(3) > div > img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 5px;
+}
+#weatherData > div:nth-child(3) > div > p {
+  font-size: 18px;
+}
+#map {
+  border: 1px solid transparent;
+  height: auto;
+}
+#days7 {
+  /* height: 300px; */
+  margin: 50px auto 50px auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(1, auto);
+  gap: 10px;
+  border: 1px solid transparent;
+}
+#days7 > div {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  font-size: 20px;
+}
+#days7 > div > div {
+  width: 90%;
+  margin: auto;
+}
+#days7 > div > div > img {
+  width: 100%;
+}
+#minTemp {
+  overflow: hidden;
+}
+#datap {
+  margin: 20px auto auto 10px;
+  font-size: 18px;
+}
+#days7main {
+  font-size: 14px;
+  padding-top: 15px;
+}

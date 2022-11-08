@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App 3</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <h1>Weather App</h1>
+    <div id="inputdiv">
+      <input type="text" id="input" placeholder="City"/>
+      <img id="submit" src="./imgs/search.png" alt="" />
+    </div>
+    <div id="container">
+      <div id="weatherData">
+        <div>
+          <h2 id="cityName"></h2>
+          <p id="datap"></p>
+        </div>
+        <div>
+          <img
+            id="currTempimg"
+            src="https://openweathermap.org/img/wn/02d@4x.png"
+            alt=""
+          />
+          <p id="currTemp"></p>
+          <p id="main" style="font-size: 14px; margin-left: 20px"></p>
+        </div>
+        <div>
+          <div>
+            <img src="./imgs/icons8-hot-96.png" alt="" />
+            <p>Max Temp</p>
+            <p id="maxTemp"></p>
+          </div>
+          <div>
+            <img src="./imgs/icons8-cold-96.png" alt="" />
+            <p>Min Temp</p>
+            <p id="minTemp"></p>
+          </div>
+          <div>
+            <img src="./imgs/icons8-wind-100.png" alt="" />
+            <p>Wind speed</p>
+            <p id="windspeed"></p>
+          </div>
+          <div>
+            <img src="./imgs/icons8-cloud-100.png" alt="" />
+            <p>Cloud</p>
+            <p id="cloud"></p>
+          </div>
+          <div>
+            <img src="./imgs/icons8-sun-96.png" alt="" />
+            <p>sunrise</p>
+            <p id="sunrise"></p>
+          </div>
+          <div>
+            <img src="./imgs/icons8-moon-96.png" alt="" />
+            <p>sunset</p>
+            <p id="sunset"></p>
+          </div>
+        </div>
+      </div>
+      <div id="map">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="100%"
+              height="100%"
+              id="gmap_canvas"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            >
+            </iframe>
+            <a href="https://fmovies-online.net">fmovies</a><br />
+            <a href="https://www.embedgooglemap.net">
+              how to add google map to my website
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="days7">
+      
+      <!-- <div>
+        <p>Sat</p>
+        <div>
+          <img src="https://openweathermap.org/img/wn/02d@4x.png" alt="" />
+        </div>
+        <p id="days7max">28 °C</p>
+        <p id="days7min">26 °C</p>
+      </div> -->
+      
+    </div>
+  </body>
+</html>
+<script src="./index.js"></script>
