@@ -5,6 +5,14 @@ Try to show my work and contribution to developer community.
 
 ## Deployed link of project
 - <a href="https://polite-basbousa-93e61a.netlify.app/">Weather App</a>
+
+## Team Members
+
+<ul>
+  <li><a href="https://github.com/pratiksontakke">Pratik Sontakke</a> (Solo Project)</li>
+</ul>
+
+
 ## Deployment
 
 On frontend terminal perform:
